@@ -1,0 +1,55 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.2",
+    "heartbeatAt": "2022-11-30T14:09:00.434447",
+    "startedAt": "2022-11-30T14:08:59.462248",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "5",
+        "--data",
+        "dataset.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "H:\\Eigene Dateien\\Bildverarbeitung\\yolov5_triangle\\yolov5\\train.py",
+    "codePath": "yolov5\\train.py",
+    "host": "DESKTOP-4V1U7LI",
+    "username": "halde",
+    "executable": "C:\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3201.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3201.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "total": 2047.9003868103027,
+        "used": 1172.1053009033203
+    },
+    "gpu": "NVIDIA GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1660 Ti",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 7.9208221435546875
+    }
+}
